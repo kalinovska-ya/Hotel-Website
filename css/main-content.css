@@ -1,0 +1,1333 @@
+/* ---------------- index.html styles --------------- */
+/* -------------------------------------------------- */
+
+.heading-index {
+    padding: 0 50px;
+}
+
+
+.heading__title-index {
+    font-size: 50px;
+    font-family: "Raleway-Bold", "Arial Bold", "Helvetica Bold", sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.heading__slogan {
+    margin-bottom: 80px;
+}
+
+.prebooking__window {
+    margin-bottom: 50px;
+    background-color: #0F172C;
+}
+
+.prebooking__window-photo {
+    overflow: hidden;
+}
+
+.prebooking-photo-img {
+    height: 100%;
+    min-width: 100%;
+}
+
+.prebooking__window-conditions {
+    color: rgba(255,255,255,.8);
+    padding: 60px 50px 20px;
+}
+
+.prebooking-room-type {
+    font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.prebooking-price {
+   margin-bottom: 30px; 
+}
+
+.prebooking-price-amount {
+    font-size: 2.2em;
+    color: #FFFFFF;
+}
+
+.prebooking-features sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.prebooking-features {
+    margin-bottom: 50px;
+}
+
+.prebooking-features td:first-child {
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    width: 100px;
+}
+.prebooking-features td:last-child {
+    padding: 10px 0px 10px 25px;
+}
+
+.prebooking__window-button {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.prebooking__window-button:hover {
+    color: #000000;
+    background-color: #566C85;
+    border: none;
+}
+
+.welcoming {
+    padding: 0 50px;
+    position: relative;
+}
+
+.welcoming__text {
+    padding: 10px 50px;
+    line-height: 2;
+    margin-bottom: 150px;
+}
+
+.welcoming__signature {
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/signature.png);
+    background-size: contain;
+    position: absolute;
+    right: 80px;
+    bottom: -100px;
+}
+
+.welcoming__jobtitle {
+    position: absolute;
+    right: 80px;
+    bottom: -100px;
+}
+
+.promotions {
+    text-align: center;
+    background-color: #0F172C;
+    color: rgba(255,255,255,.8);
+    padding: 20px 30px;
+    margin-bottom: 50px;
+}
+
+.promotions__wrapper {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.promotions__promo {
+    position: relative;
+}
+
+.promotions__promo-ind {
+    width: 245px;
+    height: 400px;
+    margin: 10px 10px 50px 10px;
+}
+
+.round-shape {
+    background-color: rgba(255,255,255,.5);
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: absolute;
+    top: 28px;
+    left: 28px;
+}
+
+.promotions__promo-title {
+    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+    letter-spacing: .6em;
+    color: #000000;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+
+.promotions__promo-button {
+    position: absolute;
+    bottom: 10px;
+    right: 28px;
+    padding: 8px;
+    display: inline-block;
+    width: 200px;
+}
+
+.promotions__promo-title a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.promotions__promo img, .promotions__promo-text{
+    margin-bottom: 20px;
+}
+
+.why-reasons {
+    padding: 10px 50px;
+    margin-bottom: 80px;
+}
+
+.why-reasons__title {
+    margin-bottom: 80px;
+}
+
+.why-reasons__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-reasons__text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 20px;
+}
+
+.why-reasons__location-icon {
+    background-image: url(../images/map_icon.png);
+    background-size: contain;
+}
+
+.why-reasons__24h-icon {
+    background-image: url(../images/24hours_icon.png);
+    background-size: contain;
+}
+
+.why-reasons__price-icon {
+    background-image: url(../images/wallet_icon.png);
+    background-size: contain;
+}
+
+.why-reasons__service-icon {
+    background-image: url(../images/baggage-trolley_icon.png);
+    background-size: contain;
+}
+
+.location {
+    color: rgba(255,255,255,.8);
+    margin-bottom: 60px;
+    background-color: #0F172C;
+}
+
+.location i, .location__text p span {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.location__text {
+    padding: 50px;
+}
+
+.location__text p {
+    margin-bottom: 15px;
+}
+
+.location iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.gallery {
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.gallery__title {
+    text-align: center;
+}
+
+.gallery__slider-photo-box {
+    height: 300px;
+    overflow: hidden;
+}
+
+.gallery__slider-photo-box img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.owl-nav {
+    font-size: 30px;
+}
+
+
+/*    ---------   index.html media-styles   --------   */
+
+@media screen  and (max-width: 992px) {
+    .prebooking-features td:first-child {
+        width: 65px;
+    }
+}
+
+
+@media screen  and (max-width: 768px) {
+    .prebooking__window {
+        flex-direction: column;   
+    }
+
+    .prebooking-features td:first-child {
+        width: 90px;
+    }
+    
+    .prebooking__window-conditions, .prebooking__window-photo {
+        width: 100%;
+    }
+
+    .prebooking-photo-img {
+    width: 100%;
+    }
+
+    .prebooking__window-conditions {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .prebooking__window-button {
+        position: absolute;
+        bottom: -10px;
+        margin-bottom: 30px;
+    }
+	
+	.prebooking__window-button:hover {
+	    margin-bottom: 32px;
+	}
+
+    .prebooking-container {
+        margin-right: 10px;
+    }
+
+    .welcoming__text {
+        padding: 10px 20px;
+    }
+
+    .why-reasons__container {
+        flex-wrap: wrap;
+    }
+
+    .location {
+        flex-direction: column;   
+    }
+
+    .location__map, .location__text {
+        width: 100%;
+    }
+
+    .location__text {
+        order: 1;
+    }
+
+    .location__map {
+        order: 2;
+    }
+
+    .location__map iframe {
+        min-height: 350px;
+    }
+
+}
+
+@media screen  and (max-width: 480px) {
+    .heading, .welcoming, .why-reasons {
+        padding: 0 20px;
+    }
+
+    .heading__title {
+        font-size: 30px;
+    }
+
+    .prebooking__window-conditions {
+        flex-direction: column;
+        padding: 30px 20px 20px;
+    }
+
+    .prebooking-room-type {
+        margin-bottom: 20px;
+    }
+
+    .prebooking-features {
+        width: 100%;
+    }
+
+    .prebooking-features td:nth-child(2) {
+        text-align: right;
+    } 
+
+    .prebooking__window-button, .prebooking__window-button:hover {
+		position: static;
+		margin: 0 auto;
+    }
+	
+	.prebooking__window-button:hover {
+		margin-bottom: 2px;
+	}
+
+    .welcoming__text {
+        text-align: center;
+    }
+
+    .location__text {
+        padding: 50px 20px;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 8px;
+        height: 8px;
+        margin: 5px 5px;   
+    }    
+
+}
+
+/* ---------------- about.html styles --------------- */
+/* -------------------------------------------------- */
+
+.heading__title-about {
+    margin-bottom: 15px;
+}
+
+.heading__subtitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.background {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.hotel-background1 {
+    background-image: url(../images/hotel-photo1.jpg);
+}
+
+.hotel-background2 {
+    background-image: url(../images/hotel-photo2.jpg);
+}
+
+.hotel-background3 {
+    background-image: url(../images/hotel-photo3.jpg);
+    margin-bottom: 80px;
+}
+
+.content {
+    padding: 30px 50px;
+    background-color: rgba(250, 250,250,.8);
+    width: 50%;
+    height: 100%;
+}
+
+.fact-2 {
+ float: right;
+ text-align: right;
+}
+
+.bridging-paragraph {
+    text-align: center;
+    padding: 50px 50px;
+    background-color:  #0F172C;
+    color: rgba(255,255,255,.8);
+    line-height: 1.5;
+    font-family: "Raleway-Regular", Arial, Helvetica, sans-serif;
+}
+
+/*    ---------   about.html media-styles   --------   */
+
+@media screen  and (max-width: 768px) {
+    .background {
+        height: 600px;
+    }
+    
+    .content {
+        padding: 20px 10px;
+        text-align: left;
+        height: 50%;
+        width: 100%;
+    }
+
+    .bridging-paragraph {
+        padding: 50px 10px;
+    }
+}
+
+/* ---------------- blog.html styles --------------- */
+/* -------------------------------------------------- */
+
+.news-block {
+    padding: 10px;
+}
+
+.news {
+    margin-bottom: 20px;
+}
+
+.close .news-preview {
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 5px;
+    background: linear-gradient(to right, #ADA09A4D 35%, #FFFFFF);
+    color: #000000;
+    border-radius: 3px;
+    transition: background 0.5s ease;
+}
+
+.open .news-preview {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: #0F172C;
+    color: rgb(145, 142, 141);
+    padding: 5px;
+    transition: background 0.5s ease;
+}
+
+.news-preview__image-box {
+    width: 30%;
+    overflow: hidden;
+    height: 290px;
+}
+
+.news-preview__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.news-preview__content-box {
+    padding: 20px 50px;
+    width: 70%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.news-preview__content-box-title {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.open .news-preview__content-box-title {
+    color: rgba(255,255,255,.8);
+}
+
+.news-preview__content-box-text {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.news-preview__content-box-pubdate, .news-full__pubdate {
+    font-family: "Raleway-ThinItalic";
+    font-size: .9em;
+}
+
+.news-preview__content-box-pubdate {
+    text-align: right;
+    margin-top:  20px;
+}
+
+.news-full__pubdate {
+    text-align: left;
+}
+
+.open .news-preview__content-box-pubdate {
+    visibility: hidden;
+}
+
+.button-container {
+    margin-bottom: 20px;
+}
+
+.news-preview__content-box-pseudo-button {
+    border: 1px solid #000000;
+    padding: 8px 36px;
+    width: 170px;
+    text-align: center;
+    transition: transform .5s;
+    display: inline-block;
+    color: #000000;
+}
+
+.news-preview__content-box-pseudo-button:hover, .open .news-preview__content-box-pseudo-button:hover {
+    color: #000000;
+    background-color: #566C85;
+    border: none;
+    transform: scale(.9);
+    margin-bottom: 2px;
+}
+
+.open .news-preview__content-box-pseudo-button {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transition: transform .5s;
+}
+
+.news-full__text {
+    margin-bottom: 10px;
+    font-family: "Raleway-Regular";
+}
+
+.news-full__text p, .news-full__text ul {
+    margin-bottom: 20px;
+}
+
+.close .news-full {
+    height: 0px;
+    transition: height 1s ease-out;
+    transform: scaleY(0);
+}
+
+.open .news-full {
+    padding: 50px;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 10px;
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.4s ease;
+    text-align: justify;
+    width: 100%;
+}
+
+
+/*    ---------   blog.html media-styles   --------   */
+
+
+@media screen  and (max-width: 768px) {
+    .news-preview__image-box {
+        width: 30%;
+        overflow: hidden;
+        height: 340px;
+    }
+}
+
+@media screen  and (max-width: 480px) {
+    .news-preview {
+        flex-direction: column;
+        background:  #ada09a4d;
+    }
+
+    .news-preview__image-box, .news-preview__content-box {
+        width: 100%;
+    }
+
+    .news-preview__image-box {
+        height: 200px;
+    }
+
+    .news-preview__content-box {
+        padding: 20px 20px;
+    }
+
+    .news-preview__content-box-pseudo-button {
+       margin: 0 auto;
+    }
+
+    .open .news-full {
+        padding: 20px;
+    }
+}
+
+
+/* ---------------- gallery.html styles --------------- */
+/* -------------------------------------------------- */
+
+
+.gallery-page {
+    margin-bottom: 150px;
+}
+
+.gallery__subtitle {
+    text-align: center;
+}
+
+.gallery-page__slider {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    height: 500px;
+    margin-bottom: 15px;
+  }
+  
+  .gallery-page__slider .gallery__slider-image-box img, 
+  .gallery-page__slider .gallery__slider-image-box2 img, 
+  .gallery-page__slider .gallery__slider-image-box3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+  }
+  
+  .gallery-page__slider .prev, .gallery-page__slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .gallery-page__slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .gallery-page__slider .prev:hover,
+  .gallery-page__slider .next:hover {
+    background-color: rgba(25, 24, 24, 0.8);
+  }
+  
+  .image-description {
+    position: absolute;
+    color: #000000;
+    width: 60%;
+    padding: 0 50px;
+    background-image: linear-gradient(to right, #566C85 50%,  transparent);
+    font-size: 25px;
+    left: 0;
+    bottom: 20px;
+    font-family: "Raleway-Thin";
+    color: #FFFFFFAD;
+  }
+  
+  .dots {
+    text-align: center;
+  }
+  .dot-navigation, .dot-navigation2, .dot-navigation3 {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #DDDDDD;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .acting,
+  .dot-navigation:hover, .dot-navigation2:hover, .dot-navigation3:hover {
+    background-color: #AAAAAA;
+  }
+  
+  .gallery-page__slider .gallery__slider-image-box, 
+  .gallery-page__slider .gallery__slider-image-box2, 
+  .gallery-page__slider .gallery__slider-image-box3 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+    opacity: .4
+    }
+    to {
+    opacity: 1
+    }
+  }
+
+
+
+/*    ---------   gallery.html media-styles   --------   */
+
+  
+  @media screen  and (max-width: 768px) {
+    .image-description {
+        width: 100%;
+
+    }
+}
+
+  @media screen  and (max-width: 480px) {
+    .gallery-page {
+        margin-bottom: 50px;
+    }
+    
+    .gallery-page__slider {
+    height: 300px;
+  }
+  
+  .gallery-page__slider .gallery__slider-image-box img,  
+  .gallery-page__slider .gallery__slider-image-box2 img, 
+  .gallery-page__slider .gallery__slider-image-box3 img{
+    height: 300px;
+  }
+  
+  .image-description {
+    font-size: 1.1em;
+    padding: 0 20px;
+  }
+
+  .dot-navigation, .dot-navigation2, .dot-navigation3 {
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+  }
+}
+
+
+/* ---------------- restaurant.html styles --------------- */
+/* ------------------------------------------------------- */
+
+.heading__title-restaurant {
+    margin-bottom: 15px;
+}
+
+.rest-background1 {
+    background-image: url(../images/rest-photo4.jpg);
+}
+
+.rest-background2 {
+    background-image: url(../images/rest-photo2.jpg);
+}
+
+.rest-background3 {
+    background-image: url(../images/rest-photo3.jpg);
+    margin-bottom: 80px;
+}
+
+
+
+/* ---------------- promo.html styles --------------- */
+/* -------------------------------------------------- */
+
+
+.heading-promo+p {
+    margin: 50px;
+    font-size: 1.2em;
+}
+
+.promotions__promo-button {
+    color: #000000;
+    border: 1px solid #0F172C;
+    background-color: rgba(250, 250, 250, .7);
+}
+
+.promotions-p {
+    padding: 20px 0px;
+    background-color: transparent;
+}
+
+.promotions__wrapper-p {
+    display: block;
+}
+
+.promotions__promo-p {
+    min-height: 350px;
+    background: linear-gradient(to right, #0F172C 35%, rgb(145, 142, 141));
+    margin-bottom: 45px;
+    padding: 50px;
+    align-items: center;
+}
+
+.promotions__promo-p  .promotions__promo-button {
+    position: static;
+}
+
+.promotions__promo-text-p{
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promotions__promo-p img {
+    visibility: hidden;
+}
+
+.promo-icon {
+    max-height: 245px;
+    max-width: 245px;
+    position: relative;
+}
+
+.promo-info {
+    margin: 0 auto;
+}
+
+.promotions__promo-text-detailed{
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+.promo-buttons {
+    min-height: 40px;
+}
+
+.promotions__promo-p:nth-child(2) .container-image-promo {
+    height: 100%;
+    background-image: url(../images/ic1.jpg);
+    background-size: inherit;
+    width: 245px;
+    position: absolute;
+}
+
+.promotions__promo-p:nth-child(4) .container-image-promo {
+    height: 100%;
+    background-image: url(../images/ic3.jpg);
+    background-size: inherit;
+    width: 245px;
+    position: absolute; 
+}
+
+.promotions__promo-p:nth-child(6) .container-image-promo {
+    height: 100%;
+    background-image: url(../images/ic2.jpg);
+    background-size: inherit;
+    width: 245px;
+    position: absolute; 
+}
+
+/*    ---------   promo.html media-styles   --------   */
+
+@media screen  and (max-width: 768px) {
+    .heading-promo+p {
+        margin: 50px 20px;
+        text-align: center;
+    }
+
+    .promotions__promo-p {
+        display: block;
+        padding: 50px 0;
+        background: none;
+        background-color: #0F172C;
+
+    }
+    .promotions__promo-p img {
+        visibility: visible;
+    }
+    
+    .promotions__promo-p:nth-child(2) .container-image-promo, 
+    .promotions__promo-p:nth-child(4) .container-image-promo, 
+    .promotions__promo-p:nth-child(6) .container-image-promo {
+       background-image: none;
+       background: linear-gradient(to left, #0F172C, rgb(145, 142, 141), #0F172C);
+       display: block;
+       width: 100%;
+       height: 245px;
+    }
+
+    .promo-icon {
+        margin: 0 auto 20px;
+    }
+
+    .promo-info {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .promotions__promo-text-detailed {
+        line-height: 1.8;
+    }
+
+}
+
+
+/* ---------------- loyalty.html styles --------------- */
+/* -------------------------------------------------- */
+
+
+.heading__title-loyalty {
+    margin-bottom: 50px;
+}
+
+.heading__subtitle-loyalty {
+    margin: 0 50px 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.loyalty-benefits {
+    background-color: #0F172C;
+    padding: 10px 50px;
+    color: rgba(255,255,255,.8);
+    margin-bottom: 80px;
+}
+
+.loyalty-benefits__title {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.benefits-wrapper {
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.benefit {
+    flex-direction: column-reverse;
+    position: relative;
+    padding: 10px;
+}
+
+.benefit__title {
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.benefit__image-box {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin: 0 auto 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.benefit__discount {
+    background-image: url(../images/benefit-discount-white.png);
+}
+
+.benefit__discount:hover {
+    background-image: url(../images/benefit-discount-blue.png);
+}
+
+.benefit__offers {
+    background-image: url(../images/benefit-offers-white.png);
+}
+
+.benefit__offers:hover {
+    background-image: url(../images/benefit-offers-blue.png);
+}
+
+.benefit__benefits {
+    background-image: url(../images/benefits-white.png);
+}
+
+.benefit__benefits:hover {
+    background-image: url(../images/benefits-blue.png);
+}
+
+.benefit__info_hidden {
+    border: 1px solid #C4C4C4;
+    padding: 20px 35px;
+    width: 280px;
+    text-align: justify;
+    font-family: "Raleway-Regular",  Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(172, 169, 169, 0.8);
+}
+
+.benefit__image-box:not(:hover)+ .benefit__info_hidden  {
+    display: none;
+}
+
+.benefit__image-box:hover+.benefit__info_hidden {
+    animation: hidden .5s;
+}
+
+@keyframes hidden {
+    0% {
+      display: block;
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+}
+
+.loyalty {
+    margin: 0 50px 100px;
+}
+
+.loyal-card {
+    margin-bottom: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loyal-card__image-box {
+    max-width: 500px;
+    margin: 0 30px;
+}
+
+.loyal-card__image-box img {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+}
+
+.loyal-card__description-title {
+    margin-bottom: 20px;
+    font-family: "Raleway-Regular";
+    color: rgb(109, 107, 107);
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.loyal-card__description ul {
+    max-width: 300px;
+    text-align: left;
+    list-style: disc;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.loyal-card__description ul li:first-child{
+    font-family: "Raleway-Bold";
+}
+
+.conditions {
+    margin: 0 50px 80px;
+}
+
+.conditions__text {
+    margin-bottom: 15px;
+}
+
+
+
+/*    ---------   loyalty.html media-styles   --------   */
+
+@media screen  and (max-width: 768px) {
+    .loyal-card {
+        display: block;
+    }
+
+    .loyal-card__image-box, .loyal-card__description {
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 15px 0;
+    }
+
+    .loyal-card__description {
+        border-bottom: 1px solid #000;
+        border-top: 1px solid #000;
+    }
+
+    .loyal-card__description ul {
+        list-style: none;
+        text-align: center;
+    }
+
+}
+
+
+@media screen  and (max-width: 480px) {
+    .heading__title {
+        margin: 0 20px 50px;
+    }
+
+    .heading__subtitle {
+        margin: 0 20px 50px;
+    }
+
+    .loyalty-benefits {
+        padding: 10px 20px;
+    }
+
+    .benefits-wrapper {
+       display: block;
+    }
+
+    .benefit {
+        width: 100%;
+    }
+
+    .benefit__info_hidden {
+        padding: 20px 35px;
+        top: 0px;
+        background-color: rgba(172, 169, 169, .9);
+        position: relative;
+        order: -1;
+        z-index: 1;
+    }
+
+    .loyalty {
+        margin: 0 20px 50px;
+    }
+
+    .conditions {
+        margin: 0 20px 80px;
+        text-align: center;
+    }
+
+}
+
+/* ---------------- contacts.html styles --------------- */
+/* -------------------------------------------------- */
+
+
+main.contacts-page {
+	margin: 0 50px 0;
+}
+
+.container-contacts {
+	justify-content: space-around;
+}
+
+.modal-window-message_sent {
+	background-color: rgba(15, 23, 44, .6);
+}
+
+.modal-window__box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 180px;
+	background-color: #0F172C;
+}
+
+.modal-window__message {
+	position: absolute;
+	color: #FFFFFF;
+	font-family: "Raleway-Thin";
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 60%;
+	padding: 20px;
+	text-align: center;
+}
+
+.buttonOK {
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+	padding: 3px 20px;
+	background-color: rgba(255,255,255,.8);
+	color: #0F172C;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.buttonOK:hover {
+	border: 1px solid grey;
+	background-color: transparent;
+	color: rgba(255,255,255,.8);
+}
+
+.guest-message, .hotel-contacts {
+	padding: 15px;
+	width: 400px;
+}
+
+.message-form {
+	flex-direction: column;
+	font-family: "Raleway-Italic";
+	letter-spacing: normal;
+	font-size: 11px;
+}
+
+.message-form input, .message-form select, .message-form textarea {
+	margin-bottom: 20px;
+}
+
+.name, .email, .tel {
+	border: none;
+	border-bottom: 1px solid black;
+	height: 30px;
+	padding: 0 10px;
+}
+
+.message-form textarea {
+	height: 100px;
+	padding: 10px;
+}
+
+.message-form label {
+	margin-bottom: 20px;
+}
+
+.message-form .checkbox-agree-terms {
+	margin-bottom: 0;
+	margin-right: 10px;
+}
+
+.message-form input.error, .message-form  textarea.error {
+	border: 1px solid #A30000;
+	border-radius: 4px;
+	margin-bottom: 2px;
+}
+
+.message-form input.checkbox-agree-terms.error {
+	box-shadow: 0 0 5px  #A30000;
+}
+
+.error-message, .error-checkbox, .error-message2{
+	color: red;
+	font-family: "OpenSans-Light";
+	font-style: italic;
+	display: none;
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+.hotel-contacts article {
+	margin-bottom: 40px;
+}
+
+/*    ---------   contacts.html media-styles   --------   */
+
+@media screen  and (max-width: 768px) {
+	.container-contacts {
+		display: block;
+	}
+
+	.guest-message {
+		margin: 0 auto;
+	}
+
+	.hotel-contacts {
+		width: 100%;
+	}
+
+	.hotel-contacts, .guest-message__title {
+		text-align: center;
+	}
+}
+
+@media screen  and (max-width: 480px) {
+
+	.guest-message {
+		width: 300px;
+	}
+
+	main.contacts-page {
+		margin: 0 20px 0;
+	}
+
+	.hotel-contacts p {
+		font-size: .9em;
+	}
+
+	.message-form  {
+		font-size: 9px;
+	}
+
+	.modal-window__box {
+		height: 240px;
+
+    }
+}

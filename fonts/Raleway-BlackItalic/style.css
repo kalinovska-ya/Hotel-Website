@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Raleway-BlackItalic";
+  src: url("./fonts/Raleway-BlackItalic.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Raleway-BlackItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Raleway-BlackItalic.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Raleway-BlackItalic.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Raleway-BlackItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Raleway-BlackItalic.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Raleway-BlackItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
