@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Saint-Jacques Hotel webpage">
+    <meta name="keywords" content="hotel, booking, room, ukraine, saint-jacques, restaurant">
+    <meta name="author" content="Alina Kalinovskaya">
+    <title>SJ Hotel</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#0f172c">
+    <link rel="shortcut icon" href="./favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="SJ hotel">
+    <meta name="application-name" content="SJ hotel">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="./favicons/browserconfig.xml">
+    <meta name="theme-color" content="#5d5d5d">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main-content.css">
+    <script src="https://kit.fontawesome.com/8c5f8983b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        <div class="wrapper-no-footer">
+
+            <div class="contacts header-contacts first-line_sticky flex">
+                <p class="contacts__phone"><a href="tel:+380-95-245-0101"><i class="fas fa-phone-alt"></i> +380 95 245 0101 </a><i class="fab fa-telegram-plane"></i> <i class="fab fa-whatsapp"></i> <i class="fab fa-viber"></i></p>
+                <p class="contacts__location"><i class="fas fa-map-marker-alt"></i> Azovska St. 37, Heniches'ka Hirka, Ukraine</p>
+                <p class="contacts__email"><a href="mailto:sj_hotel@gmail.com"><i class="fas fa-envelope"></i> sj_hotel@gmail.com</a></p>
+            </div>
+           
+            <header class="flex">
+
+                <div class="header-l-block flex">
+
+                    <div class="logo header-logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__link-image" src="images/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+    
+                    <nav class="menu flex">
+                        <ul class="menu-list flex" id="menu-list">
+                            <li class="burger"><a class="burger-button" id="burger-button" href="#">
+                                <span class="burger-button__lines"></span>
+                            </a></li>
+                            <li class="menu-list__item menu-list__item_active"><a class="menu-list__item-link" href="index.html">Home</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="about.html">About Us <i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu-aboutUs">
+                                    <li class="submenu-aboutUs__item"><a class="submenu-aboutUs__item-link" href="about.html">About Hotel</a></li>
+                                    <li class="submenu-aboutUs__item"><a class="submenu-aboutUs__item-link" href="blog.html">News</a></li>
+                                    <li class="submenu-aboutUs__item"><a class="submenu-aboutUs__item-link" href="gallery.html">Gallery</a></li>
+                                    <li class="submenu-aboutUs__item"><a class="submenu-aboutUs__item-link" href="reviews.html">Reviews</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-list__item menu-list__item_hidden"><a class="menu-list__item-link" href="about.html">About Hotel</a></li>
+                            <li class="menu-list__item menu-list__item_hidden"><a class="menu-list__item-link" href="blog.html">News</a></li>
+                            <li class="menu-list__item menu-list__item_hidden"><a class="menu-list__item-link" href="gallery.html">Gallery</a></li>
+                            <li class="menu-list__item menu-list__item_hidden"><a class="menu-list__item-link" href="reviews.html">Reviews</a></li>
+
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="rooms.html">Rooms</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="restaurant.html">Dining</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="promo.html">Promotions</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="loyalty.html">Loyalty</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="contacts.html">Contacts</a></li>
+                            <li class="menu-list__item menu-list__item_focus"><a class="menu-list__item-link" href="booking-page.html">Book Now</a></li>   
+                        </ul>
+                    </nav>
+    
+                </div>
+    
+                <div class="header-r-block">
+                        
+                    <div class="socials header-socials flex">
+                            <div class="socials__item socials__fb"><a href="https://www.facebook.com/The-Dean-Dublin-651341731655730/" target="_blank"></a></div>
+                            <div class="socials__item socials__instagram"><a href="https://www.instagram.com/thedeanhotel/" target="_blank"></a></div>
+                            <div class="socials__item socials__tripadvisor"><a href="https://www.tripadvisor.com/Hotel_Review-g186605-d7274480-Reviews-The_Dean-Dublin_County_Dublin.html" target="_blank"></a></div>
+                    </div>
+    
+                    <div class="position-elements">   
+                        <div class="settings flex">
+                            <form class="settings__language" action="#">
+                                <select class="settings-select" name="language">
+                                    <option value="EN">EN</option>
+                                    <option value="RU" disabled>RU</option>
+                                    <option value="UA" disabled>UA</option>   
+                                </select>
+                            </form>
+
+                            <form class="settings__currency" action="#">
+                                <select  class="settings-select" name="currency" id="currency" >
+                                    <option value="USD">USD</option>
+                                    <option value="GRN" disabled>GRN</option>
+                                    <option value="RUR" disabled>RUR</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="BYN" disabled>BYN</option>
+                                </select>
+                            </form>
+                        </div>
+    
+                        <div class="admin-access">
+                            <input class="admin-access__button" id="admin-button" type="button" value="ADM">
+
+                            <div class="modal-window modal-window-admin">
+                                <div class="login-form">
+                                    <h6 class="login-form__title">Administrator Access</h6>
+                                    <form class="flex" action="#" method="post">
+                                        <input type="text" name="login" id="login" placeholder="login" value="">
+                                        <input type="password" name="password" id="password" placeholder="password" value="">
+                                        <span class="error_hidden">Access failed: wrong login or password</span>   
+                                        <!-- span error - for future development - not ready without PHP -->
+                                        <input type="submit" id="submit">
+                                    </form>
+                                </div>
+                            </div>         
+                        </div>
+
+                    </div>    
+    
+                </div>               
+
+            </header>
+
+
+            <main>
+                <div class="heading heading-index">
+                    <h1 class="heading__title heading__title-index">Saint-Jacques Hotel</h1>
+                    <p class="heading__slogan">Your comfort vacations in Ukraine</p>
+                </div>
+
+                <section class="prebooking">
+                    <h2 class="invisible-element">Rooms Overview</h2>
+                    
+                    <article class="prebooking__window flex">
+                        <h3 class="invisible-element">Single Room</h3>
+                        <div class="prebooking__window-conditions col-lg-4">
+
+                            <div class="prebooking-container">
+                                <h3 class="prebooking-room-type">Single Room</h3>
+                                <p class="prebooking-price">from <br/><span class="prebooking-price-amount">120</span><span class="prebooking-price-currency"> USD</span></p>
+                            </div>
+
+                            <table class="prebooking-features">
+                                <tr>
+                                    <td>bed:</td>
+                                    <td>single bed</td>
+                                </tr>
+                                <tr>
+                                    <td>capacity:</td>
+                                    <td>1 person</td>
+                                </tr>
+                                <tr>
+                                    <td>room size:</td>
+                                    <td>30 m<sup>2</sup></td>
+                                </tr>
+                                <tr>
+                                    <td>view:</td>
+                                    <td>garden view</td>
+                                </tr>
+                            </table>
+
+                            <a class="button prebooking__window-button" href="rooms.html">view detail</a> 
+                        </div>
+                    
+                        <div class="prebooking__window-photo col-lg-8">
+                            <img class="prebooking-photo-img" src="images/single.jpg" alt="Single Room">
+                        </div>
+                    </article>
+
+                    <article class="prebooking__window flex">
+                        <h3 class="invisible-element">Double Room</h3>
+                        <div class="prebooking__window-conditions col-lg-4">
+
+                            <div class="prebooking-container">
+                                <h3 class="prebooking-room-type">Double Room</h3>
+                                <p class="prebooking-price">from <br/><span class="prebooking-price-amount">180 </span><span class="prebooking-price-currency"> USD</span></p>
+                            </div>
+                            
+                            <table class="prebooking-features">
+                                <tr>
+                                    <td>bed:</td>
+                                    <td>king-size bed</td>
+                                </tr>
+                                <tr>
+                                    <td>capacity:</td>
+                                    <td>2 persons</td>
+                                </tr>
+                                <tr>
+                                    <td>room size:</td>
+                                    <td>45 m<sup>2</sup></td>
+                                </tr>
+                                <tr>
+                                    <td>view:</td>
+                                    <td>sea view</td>
+                                </tr>
+                            </table>
+
+                            <a class="button prebooking__window-button" href="rooms.html">view detail</a> 
+                        </div>
+                    
+                        <div class="prebooking__window-photo col-lg-8">
+                            <img class="prebooking-photo-img" src="images/double.jpg" alt="Double Room">
+                        </div>
+                    </article>
+
+                    <article class="prebooking__window flex">
+                        <h3 class="invisible-element">Family Tripple Room</h3>
+                        <div class="prebooking__window-conditions col-lg-4">
+
+                            <div class="prebooking-container">
+                                <h3 class="prebooking-room-type">Family Tripple Room</h3>
+                                <p class="prebooking-price">from <br/><span class="prebooking-price-amount">220 </span><span class="prebooking-price-currency"> USD</span></p>
+                            </div>
+
+                            <table class="prebooking-features">
+                                <tr>
+                                    <td>bed:</td>
+                                    <td>queen-size bed + single bed</td>
+                                </tr>
+                                <tr>
+                                    <td>capacity:</td>
+                                    <td>3 persons</td>
+                                </tr>
+                                <tr>
+                                    <td>room size:</td>
+                                    <td>45 m<sup>2</sup></td>
+                                </tr>
+                                <tr>
+                                    <td>view:</td>
+                                    <td>garden view/sea view</td>
+                                </tr>
+                            </table>
+
+                            <a class="button prebooking__window-button" href="rooms.html">view detail</a> 
+                        </div>
+                    
+                        <div class="prebooking__window-photo col-lg-8">
+                            <img class="prebooking-photo-img" src="images/tripple.jpg" alt="Family Tripple Room">
+                        </div>
+                    </article>
+
+                </section>
+
+
+                <section class="welcoming">
+                    <h2 class="welcoming__title">Welcome to Saint-Jacque Hotel</h2>
+                    <p class="welcoming__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquam dolor expedita atque distinctio. Maxime blanditiis officia minus fugit repudiandae, doloremque mollitia doloribus accusamus reprehenderit aspernatur magnam quae, cum possimus. Tempora explicabo, tempore nihil illum nesciunt magni et recusandae asperiores omnis aliquam expedita quis. Beatae magnam et labore temporibus ad qui eum quam tenetur minus officiis maiores vero assumenda recusandae provident necessitatibus suscipit illo voluptates, impedit consequuntur doloribus nisi facilis?</p>
+                    <div class="welcoming__signature"></div>
+                    <p class="welcoming__jobtitle">HOTEL MANAGER</p>
+                </section>
+
+                <section class="promotions">
+                    <h2 class="promotions__title">Special Offers</h2>
+                    <div class="promotions__wrapper flex">
+                        <article class="promotions__promo promotions__promo-ind">
+                            <h4 class="invisible-element">Promotion: Long Stay Discount</h4>
+                            <img src="images/promo1.svg" alt="Promotion" class="promotions__promo-image">
+                            <div class="round-shape">
+                                <h4 class="promotions__promo-title"><a href="promo.html#long-stay-discount">Long Stay Discount</a></h4>
+                            </div>
+                            <p class="promotions__promo-text">Enjoy your vacations longer with our 10% discount for 5+ nights stay</p>
+                            <a href="promo.html#long-stay-discount" class="button promotions__promo-button">read more</a>
+                        </article>
+
+                        <article class="promotions__promo promotions__promo-ind">
+                            <h4 class="invisible-element">Promotion: Winter Sale</h4>
+                            <img src="images/promo2.svg" alt="Promotion" class="promotions__promo-image">
+                            <div class="round-shape">
+                                <h4 class="promotions__promo-title"><a href="promo.html#winter-sale">Winter Sale</a></h4>
+                            </div>
+                            <p class="promotions__promo-text">Let's celebrate winter holidays together! Special offer from 20Dec till 10Jan</p>
+                            <a href="promo.html#winter-sale" class="button promotions__promo-button">read more</a>
+                        </article>
+
+                        <article class="promotions__promo promotions__promo-ind">
+                            <h4 class="invisible-element">Promotion: Stay Loyal</h4>
+                            <img src="images/promo3.svg" alt="Promotion" class="promotions__promo-image">
+                            <div class="round-shape">
+                                <h4 class="promotions__promo-title"><a href="promo.html#stay-loyal">Stay loyal<br/><br/>february special offer</a></h4>
+                            </div>
+                            <p class="promotions__promo-text">Not first time with us? We've got something special for You</p>
+                            <a href="promo.html#stay-loyal" class="button promotions__promo-button">read more</a>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="why-reasons">
+                    <h2 class="why-reasons__title">Why guests choose our hotel?</h2>
+                    <div class="why-reasons__container flex">
+                        <div class="why-reasons__location col-lg-4 col-xs-6">
+                            <div class="icon why-reasons__location-icon"></div>
+                            <p class="why-reasons__text">Located in city centre within 100 metres to seaside</p>
+                        </div>
+                        <div class="why-reasons__24h col-lg-4 col-xs-6">
+                            <div class="icon why-reasons__24h-icon"></div>
+                            <p class="why-reasons__text">24 hours services for your pleasure</p>
+                        </div>
+                        <div class="why-reasons__price col-lg-4 col-xs-6">
+                            <div class="icon why-reasons__price-icon"></div>
+                            <p class="why-reasons__text">Flexible pricing policy</p>
+                        </div>
+                        <div class="why-reasons__service col-lg-4 col-xs-6">
+                            <div class="icon why-reasons__service-icon"></div>
+                            <p class="why-reasons__text">Excellent quality of service</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="location flex">
+                    <h2 class="invisible-element">Our Location</h2>
+                    <div class="location__map col-lg-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4988.569675812468!2d34.82535561365634!3d46.07936663022326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e9e7790773837d%3A0x1020d1cd0b22ac5f!2sHotel%CA%B9%20Platynum!5e0!3m2!1sen!2sby!4v1578261948344!5m2!1sen!2sby" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                    <div class="location__text col-lg-6">
+                        <h2 class="location__title">Our location</h2>
+                        <p>Many activities surround our accommodations. You’ ll have a great choice of experiences to live. Consider extending your stay if you want to discover everything before you leave.</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Fifth Floor East 26th Street, New York, NY 10011</p>
+                        <p><span>BY CAR</span>
+                            Approximately 5 minutes from St. Moritz ramp way, or 10 minutes from Piz Albana ramp.
+                            </p>
+                            <p><span>BY TRAIN</span>
+                                Approximately 5 minutes from Shibuya ramp way, or 10 minutes from Takagi-cho ramp way by car.</p>
+                    </div>
+                </section>
+
+                <section class="gallery">
+                    <h2 class="gallery__title">Gallery</h2>
+
+                    <div class="gallery__slider owl-carousel owl-theme">
+                        <div class="gallery__slider-photo-box"> 
+                            <img src="images/hotel-photo1.jpg" alt="Saint-Jasques hotel exterior" title="Saint-Jasques hotel exterior">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/hotel-photo3.jpg" alt="Saint-Jasques hotel interior" title="Saint-Jasques hotel interio">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/reception.jpg" alt="Saint-Jacques hotel reception" title="Saint-Jacques hotel reception">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/hotel-photo2.jpg" alt="Saint-Jacques hotel - double room" title="Saint-Jacques hotel - double room">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/photo1.jpg" alt="Saint-Jacques hotel - double room" title="Saint-Jacques hotel - double room">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/photo2.jpg" alt="Saint-Jacques hotel - double room" title="Saint-Jacques hotel - double room">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/photo3.jpg" alt="Saint-Jacques hotel - single room" title="Saint-Jacques hotel - single room">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/photo4.jpg" alt="Saint-Jacques hotel - double room" title="Saint-Jacques hotel - double room">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/photo7.jpg" alt="Saint-Jacques hotel - family tripple room" title="Saint-Jacques hotel - family tripple room">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/photo8.jpg" alt="Saint-Jacques hotel - bathroom" title="Saint-Jacques hotel - bathroom">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/photo9.jpg" alt="Saint-Jacques hotel - room interior" title="Saint-Jacques hotel - room interior">
+                        </div>  
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/photo10.jpg" alt="Saint-Jacques hotel - room interior" title="Saint-Jacques hotel - room interior">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/rest-photo7.jpg" alt="Demo restaurant - coffee-bar" title="Demo restaurant - coffee-bar">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/rest-photo2.jpg" alt="Demo restaurant - breakfast" title="Demo restaurant - breakfast">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/rest-photo3.jpg" alt="Demo restaurant - serving" title="Demo restaurant - serving">
+                        </div>
+                        <div class="gallery__slider-photo-box">
+                            <img src="images/rest-photo4.jpg" alt="Demo restaurant - serving" title="Demo restaurant - serving">
+                        </div>                     
+
+                    </div>
+
+
+                </section>
+
+            </main>
+
+        </div>
+
+        
+        <footer>
+            
+            <a href="#" class="button-to-up"></a>
+
+            <div class="footer-f-line">
+                <div class="logo footer-logo">
+                    <a class="logo__link" href="index.html">
+                        <img class="logo__link-image" src="images/logo-light.svg" alt="Logo">
+                    </a>
+                </div>
+
+                <div class="contacts footer-contacts col-lg-4 col-xs-4">
+                    <h5 class="contacts-footer__title">Contacts</h5>
+                    <ul>
+                        <li>LTD «SJ Hotel»</li>
+                        <li>VAT 10101010010</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Azovska St. 37, Heniches'ka Hirka, Ukraine</li>
+                        <li><a href="tel:+380-95-245-0101"><i class="fas fa-phone-alt"></i> +380 95 245 0101 </a><i class="fab fa-telegram-plane"></i> <i class="fab fa-whatsapp"></i> <i class="fab fa-viber"></i></li>
+                        <li><a href="mailto:sj_hotel@gmail.com"><i class="fas fa-envelope"></i> sj_hotel@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <nav class="menu footer-menu col-lg-8 col-xs-4">
+                    <ul class="menu-list footer-menu-list">
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="index.html">Home</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="about.html">About Hotel</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="blog.html">News</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="gallery.html">Gallery</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="reviews.html">Reviews</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="rooms.html">Rooms</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="restaurant.html">Dining</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="promo.html">Promotions</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="loyalty.html">Loyalty</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <a href="pub-arrangement.pdf" target="_blank" class="legal">View public arrangement >>></a>
+            
+            <div class="socials footer-socials flex">
+                <div class="socials__item socials__fb"><a href="https://www.facebook.com/The-Dean-Dublin-651341731655730/" target="_blank"></a></div>
+                <div class="socials__item socials__instagram"><a href="https://www.instagram.com/thedeanhotel/" target="_blank"></a></div>
+                <div class="socials__item socials__tripadvisor"><a href="https://www.tripadvisor.com/Hotel_Review-g186605-d7274480-Reviews-The_Dean-Dublin_County_Dublin.html" target="_blank"></a></div>
+            </div>
+
+            <p class="copyright">&copy; 2019 Saint-Jacque Hotel - Official website</p>
+
+        </footer>
+
+    </div>
+
+<script src="js/jquery.js"></script>
+<script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

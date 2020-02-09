@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Saint-Jacques Hotel webpage">
+    <meta name="keywords" content="hotel, booking, room, ukraine, saint-jacques, restaurant">
+    <meta name="author" content="Alina Kalinovskaya">
+    <title>SJ Hotel</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#0f172c">
+    <link rel="shortcut icon" href="./favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="SJ hotel">
+    <meta name="application-name" content="SJ hotel">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="./favicons/browserconfig.xml">
+    <meta name="theme-color" content="#5d5d5d">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main-content.css">
+    <script src="https://kit.fontawesome.com/8c5f8983b2.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    
+    <div class="wrapper">
+        <div class="wrapper-no-footer">
+
+            <div class="contacts header-contacts first-line_sticky flex">
+                <p class="contacts__phone"><a href="tel:+380-95-245-0101"><i class="fas fa-phone-alt"></i> +380 95 245 0101 </a><i class="fab fa-telegram-plane"></i> <i class="fab fa-whatsapp"></i> <i class="fab fa-viber"></i></p>
+                <p class="contacts__location"><i class="fas fa-map-marker-alt"></i> Azovska St. 37, Heniches'ka Hirka, Ukraine</p>
+                <p class="contacts__email"><a href="mailto:sj_hotel@gmail.com"><i class="fas fa-envelope"></i> sj_hotel@gmail.com</a></p>
+            </div>
+           
+            <header class="flex">
+
+                <div class="header-l-block flex">
+
+                    <div class="logo header-logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__link-image" src="images/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+    
+                    <nav class="menu flex">
+                        <ul class="menu-list flex" id="menu-list">
+                            <li class="burger"><a class="burger-button" id="burger-button" href="#">
+                                <span class="burger-button__lines"></span>
+                            </a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="index.html">Home</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="about.html">About Us <i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu-aboutUs">
+                                    <li class="submenu-aboutUs__item"><a class="submenu-aboutUs__item-link" href="about.html">About Hotel</a></li>
+                                    <li class="submenu-aboutUs__item"><a class="submenu-aboutUs__item-link" href="blog.html">News</a></li>
+                                    <li class="submenu-aboutUs__item menu-list__item_active"><a class="submenu-aboutUs__item-link" href="gallery.html">Gallery</a></li>
+                                    <li class="submenu-aboutUs__item"><a class="submenu-aboutUs__item-link" href="reviews.html">Reviews</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-list__item menu-list__item_hidden"><a class="menu-list__item-link" href="about.html">About Hotel</a></li>
+                            <li class="menu-list__item menu-list__item_hidden"><a class="menu-list__item-link" href="blog.html">News</a></li>
+                            <li class="menu-list__item menu-list__item_hidden menu-list__item_active"><a class="menu-list__item-link" href="gallery.html">Gallery</a></li>
+                            <li class="menu-list__item menu-list__item_hidden"><a class="menu-list__item-link" href="reviews.html">Reviews</a></li>
+
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="rooms.html">Rooms</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="restaurant.html">Dining</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="promo.html">Promotions</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="loyalty.html">Loyalty</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="contacts.html">Contacts</a></li>
+                            <li class="menu-list__item menu-list__item_focus"><a class="menu-list__item-link" href="booking-page.html">Book Now</a></li>   
+                        </ul>
+                    </nav>
+    
+                </div>
+    
+                <div class="header-r-block">
+                        
+                    <div class="socials header-socials flex">
+                            <div class="socials__item socials__fb"><a href="https://www.facebook.com/The-Dean-Dublin-651341731655730/" target="_blank"></a></div>
+                            <div class="socials__item socials__instagram"><a href="https://www.instagram.com/thedeanhotel/" target="_blank"></a></div>
+                            <div class="socials__item socials__tripadvisor"><a href="https://www.tripadvisor.com/Hotel_Review-g186605-d7274480-Reviews-The_Dean-Dublin_County_Dublin.html" target="_blank"></a></div>
+                    </div>
+    
+                    <div class="position-elements">   
+                        <div class="settings flex">
+                            <form class="settings__language" action="#">
+                                <select class="settings-select" name="language">
+                                    <option value="EN">EN</option>
+                                    <option value="RU" disabled>RU</option>
+                                    <option value="UA" disabled>UA</option>   
+                                </select>
+                            </form>
+
+                            <form class="settings__currency" action="#">
+                                <select  class="settings-select" name="currency" id="currency" >
+                                    <option value="USD">USD</option>
+                                    <option value="GRN" disabled>GRN</option>
+                                    <option value="RUR" disabled>RUR</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="BYN" disabled>BYN</option>
+                                </select>
+                            </form>
+                        </div>
+    
+                        <div class="admin-access">
+                            <input class="admin-access__button" id="admin-button" type="button" value="ADM">
+
+                            <div class="modal-window modal-window-admin">
+                                <div class="login-form">
+                                    <h6 class="login-form__title">Administrator Access</h6>
+                                    <form class="flex" action="#" method="post">
+                                        <input type="text" name="login" id="login" placeholder="login" value="">
+                                        <input type="password" name="password" id="password" placeholder="password" value="">
+                                        <span class="error_hidden">Access failed: wrong login or password</span>
+                                         <!-- span error - for future development - not ready without PHP -->
+                                        <input type="submit" id="submit">
+                                    </form>
+                                </div>
+                            </div>     
+                        </div>
+
+                    </div>    
+    
+                </div>               
+
+            </header>
+
+
+            <main>
+                <div class="heading">
+                    <h1 class="heading__title">&mdash; Gallery &mdash;</h1>
+                </div> 
+            
+                <article class="gallery-page gallery__rooms">
+                    <h2 class="gallery__subtitle">Rooms</h2>
+            
+                    <div class="gallery-page__slider">   
+
+
+                        <div class="gallery__slider-image-box">
+                            <img src="images/single.jpg" alt="Single Room">
+                            <div class="image-description">Single Room</div>
+                        </div>
+                    
+                        <div class="gallery__slider-image-box">
+                            <img src="images/double.jpg" alt="Double Room">
+                            <div class="image-description">Double Room</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box">
+                            <img src="images/tripple.jpg" alt="Tripple Room">
+                            <div class="image-description">Tripple Room</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box">
+                            <img src="images/hotel-photo2.jpg" alt="Double Room - Light">
+                            <div class="image-description">Double Room "Light"</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box">
+                            <img src="images/photo1.jpg" alt="Double Room - Classic">
+                            <div class="image-description">Double Room "Classic"</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box">
+                            <img src="images/photo4.jpg" alt="Double Room - Classic">
+                            <div class="image-description">Double Room "Classic"</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box">
+                            <img src="images/photo9.jpg" alt="Double Room - Wave">
+                            <div class="image-description">Double Room "Wave"</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box">
+                            <img src="images/photo10.jpg" alt="Double Room - Blue">
+                            <div class="image-description">Double Room "Blue"</div>
+                        </div>
+                
+                    
+                        <a class="prev" onclick="minusSlide('rooms')">❮</a>
+                        <a class="next" onclick="plusSlide('rooms')">❯</a>
+                    </div>
+                    
+                    <div class="dots">
+                        <span class="dot-navigation" onclick="currentSlide(1, 'rooms')"></span>  
+                        <span class="dot-navigation" onclick="currentSlide(2, 'rooms')"></span>  
+                        <span class="dot-navigation" onclick="currentSlide(3, 'rooms')"></span>
+                        <span class="dot-navigation" onclick="currentSlide(4, 'rooms')"></span>
+                        <span class="dot-navigation" onclick="currentSlide(5, 'rooms')"></span>
+                        <span class="dot-navigation" onclick="currentSlide(6, 'rooms')"></span>
+                        <span class="dot-navigation" onclick="currentSlide(7, 'rooms')"></span>
+                        <span class="dot-navigation" onclick="currentSlide(8, 'rooms')"></span>
+                    </div>
+            
+                  </article>
+                
+
+                  <article class="gallery-page gallery__restaurant">
+                    <h2 class="gallery__subtitle">Restaurant</h2>
+            
+                    <div class="gallery-page__slider">
+                        <div class="gallery__slider-image-box2">
+                            <img src="images/rest-photo1.jpg" alt="Demo Restaurant - interior">
+                            <div class="image-description">Demo interior</div>
+                        </div>
+                    
+                        <div class="gallery__slider-image-box2">
+                            <img src="images/rest-photo2.jpg" alt="Demo restaurant - breakfast">
+                            <div class="image-description">Demo breakfasts</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box2">
+                            <img src="images/rest-photo3.jpg" alt="Demo restaurant - evening serving">
+                            <div class="image-description">Demo evening serving</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box2">
+                            <img src="images/rest-photo4.jpg" alt="Demo restaurant - serving">
+                            <div class="image-description">Demo serving</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box2">
+                            <img src="images/rest-photo5.jpg" alt="Demo Restaurant - interior">
+                            <div class="image-description">Demo interior</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box2">
+                            <img src="images/rest-photo7.jpg" alt="Demo cafe">
+                            <div class="image-description">Demo cafe</div>
+                        </div>
+                
+                    
+                        <a class="prev" onclick="minusSlide('restaurant')">❮</a>
+                        <a class="next" onclick="plusSlide('restaurant')">❯</a>
+                    </div>
+                    
+                    <div class="dots">
+                        <span class="dot-navigation2" onclick="currentSlide(1, 'restaurant')"></span>  
+                        <span class="dot-navigation2" onclick="currentSlide(2, 'restaurant')"></span>  
+                        <span class="dot-navigation2" onclick="currentSlide(3, 'restaurant')"></span>
+                        <span class="dot-navigation2" onclick="currentSlide(4, 'restaurant')"></span>
+                        <span class="dot-navigation2" onclick="currentSlide(5, 'restaurant')"></span>
+                        <span class="dot-navigation2" onclick="currentSlide(6, 'restaurant')"></span>
+                    </div>
+            
+                  </article>
+
+
+                  <article class="gallery-page gallery__hotel">
+                    <h2 class="gallery__subtitle">Hotel View</h2>
+            
+                    <div class="gallery-page__slider">
+                        <div class="gallery__slider-image-box3">
+                            <img src="images/hotel-photo1.jpg" alt="Saint-Jacque hotel exterior">
+                            <div class="image-description">Hotel exterior</div>
+                        </div>
+                    
+                        <div class="gallery__slider-image-box3">
+                            <img src="images/hotel-photo3.jpg" alt="Saint-Jacque hotel interior">
+                            <div class="image-description">Hotel interior</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box3">
+                            <img src="images/reception.jpg" alt="Saint-Jacque hotel reception">
+                            <div class="image-description">Hotel reception</div>
+                        </div>
+                
+                        <div class="gallery__slider-image-box3">
+                            <img src="images/view.jpg" alt="Saint-Jacque hotel seaview">
+                            <div class="image-description">Hotel seaview</div>
+                        </div>
+                
+                    
+                        <a class="prev" onclick="minusSlide('hotel')">❮</a>
+                        <a class="next" onclick="plusSlide('hotel')">❯</a>
+                    </div>
+                    
+                    <div class="dots">
+                        <span class="dot-navigation3" onclick="currentSlide(1, 'hotel')"></span>  
+                        <span class="dot-navigation3" onclick="currentSlide(2, 'hotel')"></span>  
+                        <span class="dot-navigation3" onclick="currentSlide(3, 'hotel')"></span>
+                        <span class="dot-navigation3" onclick="currentSlide(4, 'hotel')"></span>
+                    </div>
+            
+                  </article>
+            </main>
+
+        </div>
+
+        <footer>
+                
+            <a href="#" class="button-to-up"></a>
+
+            <div class="footer-f-line">
+                <div class="logo footer-logo">
+                    <a class="logo__link" href="index.html">
+                        <img class="logo__link-image" src="images/logo-light.svg" alt="Logo">
+                    </a>
+                </div>
+
+                <div class="contacts footer-contacts col-lg-4 col-xs-4">
+                    <h5 class="contacts-footer__title">Contacts</h5>
+                    <ul>
+                        <li>LTD «SJ Hotel»</li>
+                        <li>VAT 10101010010</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Azovska St. 37, Heniches'ka Hirka, Ukraine</li>
+                        <li><a href="tel:+380-95-245-0101"><i class="fas fa-phone-alt"></i> +380 95 245 0101 </a><i class="fab fa-telegram-plane"></i> <i class="fab fa-whatsapp"></i> <i class="fab fa-viber"></i></li>
+                        <li><a href="mailto:sj_hotel@gmail.com"><i class="fas fa-envelope"></i> sj_hotel@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <nav class="menu footer-menu col-lg-8 col-xs-4">
+                    <ul class="menu-list footer-menu-list">
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="index.html">Home</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="about.html">About Hotel</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="blog.html">News</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="gallery.html">Gallery</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="reviews.html">Reviews</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="rooms.html">Rooms</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="restaurant.html">Dining</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="promo.html">Promotions</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="loyalty.html">Loyalty</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <a href="pub-arrangement.pdf" target="_blank" class="legal">View public arrangement >>></a>
+            
+            <div class="socials footer-socials flex">
+                <div class="socials__item socials__fb"><a href="https://www.facebook.com/The-Dean-Dublin-651341731655730/" target="_blank"></a></div>
+                <div class="socials__item socials__instagram"><a href="https://www.instagram.com/thedeanhotel/" target="_blank"></a></div>
+                <div class="socials__item socials__tripadvisor"><a href="https://www.tripadvisor.com/Hotel_Review-g186605-d7274480-Reviews-The_Dean-Dublin_County_Dublin.html" target="_blank"></a></div>
+            </div>
+
+            <p class="copyright">&copy; 2019 Saint-Jacque Hotel - Official website</p>
+
+        </footer>
+
+    </div>
+
+<script src="js/jquery.js"></script>   
+<script src="js/script.js"></script>
+<script src="js/gallery.js"></script>
+
+
+</body>
+</html>

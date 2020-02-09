@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Saint-Jacques Hotel webpage">
+    <meta name="keywords" content="hotel, booking, room, ukraine, saint-jacques, restaurant">
+    <meta name="author" content="Alina Kalinovskaya">
+    <title>SJ Hotel</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#0f172c">
+    <link rel="shortcut icon" href="./favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="SJ hotel">
+    <meta name="application-name" content="SJ hotel">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="./favicons/browserconfig.xml">
+    <meta name="theme-color" content="#5d5d5d">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main-content.css">
+    <script src="https://kit.fontawesome.com/8c5f8983b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        <div class="wrapper-no-footer">
+
+            <div class="contacts header-contacts first-line_sticky flex">
+                <p class="contacts__phone"><a href="tel:+380-95-245-0101"><i class="fas fa-phone-alt"></i> +380 95 245 0101 </a><i class="fab fa-telegram-plane"></i> <i class="fab fa-whatsapp"></i> <i class="fab fa-viber"></i></p>
+                <p class="contacts__location"><i class="fas fa-map-marker-alt"></i> Azovska St. 37, Heniches'ka Hirka, Ukraine</p>
+                <p class="contacts__email"><a href="mailto:sj_hotel@gmail.com"><i class="fas fa-envelope"></i> sj_hotel@gmail.com</a></p>
+            </div>
+           
+            <header class="flex">
+
+                <div class="header-l-block flex">
+
+                    <div class="logo header-logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__link-image" src="images/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+    
+                    <nav class="menu flex">
+                        <ul class="menu-list flex" id="menu-list">
+                            <li class="burger"><a class="burger-button" id="burger-button" href="#">
+                                <span class="burger-button__lines"></span>
+                            </a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="index.html">Home</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="about.html">About Us <i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu-aboutUs">
+                                    <li class="submenu-aboutUs__item"><a class="submenu-aboutUs__item-link" href="about.html">About Hotel</a></li>
+                                    <li class="submenu-aboutUs__item menu-list__item_active"><a class="submenu-aboutUs__item-link" href="blog.html">News</a></li>
+                                    <li class="submenu-aboutUs__item"><a class="submenu-aboutUs__item-link" href="gallery.html">Gallery</a></li>
+                                    <li class="submenu-aboutUs__item"><a class="submenu-aboutUs__item-link" href="reviews.html">Reviews</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-list__item menu-list__item_hidden"><a class="menu-list__item-link" href="about.html">About Hotel</a></li>
+                            <li class="menu-list__item menu-list__item_hidden menu-list__item_active"><a class="menu-list__item-link" href="blog.html">News</a></li>
+                            <li class="menu-list__item menu-list__item_hidden"><a class="menu-list__item-link" href="gallery.html">Gallery</a></li>
+                            <li class="menu-list__item menu-list__item_hidden"><a class="menu-list__item-link" href="reviews.html">Reviews</a></li>
+
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="rooms.html">Rooms</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="restaurant.html">Dining</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="promo.html">Promotions</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="loyalty.html">Loyalty</a></li>
+                            <li class="menu-list__item"><a class="menu-list__item-link" href="contacts.html">Contacts</a></li>
+                            <li class="menu-list__item menu-list__item_focus"><a class="menu-list__item-link" href="booking-page.html">Book Now</a></li>   
+                        </ul>
+                    </nav>
+    
+                </div>
+    
+                <div class="header-r-block">
+                        
+                    <div class="socials header-socials flex">
+                            <div class="socials__item socials__fb"><a href="https://www.facebook.com/The-Dean-Dublin-651341731655730/" target="_blank"></a></div>
+                            <div class="socials__item socials__instagram"><a href="https://www.instagram.com/thedeanhotel/" target="_blank"></a></div>
+                            <div class="socials__item socials__tripadvisor"><a href="https://www.tripadvisor.com/Hotel_Review-g186605-d7274480-Reviews-The_Dean-Dublin_County_Dublin.html" target="_blank"></a></div>
+                    </div>
+    
+                    <div class="position-elements">   
+                        <div class="settings flex">
+                            <form class="settings__language" action="#">
+                                <select class="settings-select" name="language">
+                                    <option value="EN">EN</option>
+                                    <option value="RU" disabled>RU</option>
+                                    <option value="UA" disabled>UA</option>   
+                                </select>
+                            </form>
+
+                            <form class="settings__currency" action="#">
+                                <select  class="settings-select" name="currency" id="currency" >
+                                    <option value="USD">USD</option>
+                                    <option value="GRN" disabled>GRN</option>
+                                    <option value="RUR" disabled>RUR</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="BYN" disabled>BYN</option>
+                                </select>
+                            </form>
+                        </div>
+    
+                        <div class="admin-access">
+                            <input class="admin-access__button" id="admin-button" type="button" value="ADM">
+
+                            <div class="modal-window modal-window-admin">
+                                <div class="login-form">
+                                    <h6 class="login-form__title">Administrator Access</h6>
+                                    <form class="flex" action="#" method="post">
+                                        <input type="text" name="login" id="login" placeholder="login" value="">
+                                        <input type="password" name="login" id="password" placeholder="password" value="">
+                                        <span class="error_hidden">Access failed: wrong login or password</span>   
+                                        <!-- span error - for future development - not ready without PHP -->
+                                        <input type="submit" id="submit">
+                                    </form>
+                                </div>
+                            </div>       
+                        </div>
+
+                    </div>    
+    
+                </div>               
+
+            </header>
+
+
+            <main>
+                <div class="heading">
+                    <h1 class="heading__title">&mdash; News Blog &mdash;</h1>
+                </div> 
+
+               <section class="news-block">
+                   <h2 class="invisible-element">Articles</h2>
+                   
+                    <!-- <article class="news close">
+                       
+                        <div class="news-preview flex">
+                            <div class="news-preview__image-box">
+                                <img class="news-preview__image" src="images/promo3.svg" alt="">
+                            </div>
+                            <div class="news-preview__content-box flex">
+                                <h3 class="news-preview__content-box-title">News1</h3>
+                                <div class="news-preview__content-box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni praesentium tempora alias earum vero illo enim veniam repellendus quo odio ab, iure laboriosam nam ipsam dolores doloribus omnis quasi quam?</div>
+                                <div class="button-container">
+                                    <div class="button news-preview__content-box-pseudo-button">Read more</div>
+                                </div>
+                                <span class="news-preview__content-box-pubdate">04 Mar 2019</span> 
+                            </div>
+                        </div>
+
+                       <div class="news-full">
+                            <p class="news-full__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque at incidunt reiciendis minus consequatur illo voluptas aspernatur neque totam accusantium enim non, consequuntur maiores molestias eligendi officiis, ipsum, voluptatum saepe corporis a dolores obcaecati necessitatibus. Quidem ipsa facilis facere atque accusantium amet quas obcaecati ipsum. Velit sapiente quam consequuntur sunt assumenda? Eaque voluptatum nesciunt dolorem ipsam tenetur quod doloribus mollitia quia quae dolore ab non sequi impedit quos rerum animi expedita explicabo, porro commodi qui quas. Beatae labore vitae error porro odio, consequuntur laboriosam ducimus id placeat aut magni ipsam voluptates doloribus excepturi quasi ipsa facilis adipisci veniam debitis ab nihil iste minima? Sit earum blanditiis rerum minus cupiditate voluptas eius qui reprehenderit placeat, recusandae tempora nulla excepturi velit aliquid eveniet tenetur non. Sint magni rem voluptatum? Tenetur soluta quia tempora dolores impedit fugit magni culpa nesciunt, adipisci quibusdam molestiae temporibus animi accusamus consectetur perspiciatis, voluptas nostrum dicta aspernatur atque sit, eaque ullam officiis? Id ea sit doloremque praesentium dolores eius tempore blanditiis delectus corrupti ad! Sapiente, itaque? Ea tempora itaque nihil est, enim voluptates distinctio. Repellendus voluptatum, quae vero inventore pariatur itaque facere mollitia blanditiis commodi illum quaerat vel consequatur voluptates iusto necessitatibus debitis eveniet? Ut ex dolore sit.</p>
+                            <span class="news-full__pubdate">04 Mar 2019</span> 
+                        </div>
+
+                    </article> -->
+                    <!-- saved for future development -->
+                
+
+               </section>
+
+            </main>
+
+        </div>
+
+        <footer>
+                
+            <a href="#" class="button-to-up"></a>
+
+            <div class="footer-f-line">
+                <div class="logo footer-logo">
+                    <a class="logo__link" href="index.html">
+                        <img class="logo__link-image" src="images/logo-light.svg" alt="Logo">
+                    </a>
+                </div>
+
+                <div class="contacts footer-contacts col-lg-4 col-xs-4">
+                    <h5 class="contacts-footer__title">Contacts</h5>
+                    <ul>
+                        <li>LTD «SJ Hotel»</li>
+                        <li>VAT 10101010010</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Azovska St. 37, Heniches'ka Hirka, Ukraine</li>
+                        <li><a href="tel:+380-95-245-0101"><i class="fas fa-phone-alt"></i> +380 95 245 0101 </a><i class="fab fa-telegram-plane"></i> <i class="fab fa-whatsapp"></i> <i class="fab fa-viber"></i></li>
+                        <li><a href="mailto:sj_hotel@gmail.com"><i class="fas fa-envelope"></i> sj_hotel@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <nav class="menu footer-menu col-lg-8 col-xs-4">
+                    <ul class="menu-list footer-menu-list">
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="index.html">Home</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="about.html">About Hotel</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="blog.html">News</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="gallery.html">Gallery</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="reviews.html">Reviews</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="rooms.html">Rooms</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="restaurant.html">Dining</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="promo.html">Promotions</a></li>
+                        <li class="menu-list__item"><a class="footer-menu-list__item-link" href="loyalty.html">Loyalty</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <a href="pub-arrangement.pdf" target="_blank" class="legal">View public arrangement >>></a>
+            
+            <div class="socials footer-socials flex">
+                <div class="socials__item socials__fb"><a href="https://www.facebook.com/The-Dean-Dublin-651341731655730/" target="_blank"></a></div>
+                <div class="socials__item socials__instagram"><a href="https://www.instagram.com/thedeanhotel/" target="_blank"></a></div>
+                <div class="socials__item socials__tripadvisor"><a href="https://www.tripadvisor.com/Hotel_Review-g186605-d7274480-Reviews-The_Dean-Dublin_County_Dublin.html" target="_blank"></a></div>
+            </div>
+
+            <p class="copyright">&copy; 2019 Saint-Jacque Hotel - Official website</p>
+
+        </footer>
+
+    </div>
+
+<script src="js/jquery.js"></script>   
+<script src="js/script.js"></script>
+<script src="js/blog.js"></script>
+
+</body>
+</html>
+
+
+
+
